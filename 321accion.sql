@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50051
 File Encoding         : 65001
 
-Date: 2014-10-15 22:41:36
+Date: 2014-10-15 22:45:23
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,10 +31,10 @@ CREATE TABLE `caracteristicas` (
 -- ----------------------------
 
 -- ----------------------------
--- Table structure for `caracteristicpersona`
+-- Table structure for `caracteristicaspersona`
 -- ----------------------------
-DROP TABLE IF EXISTS `caracteristicpersona`;
-CREATE TABLE `caracteristicpersona` (
+DROP TABLE IF EXISTS `caracteristicaspersona`;
+CREATE TABLE `caracteristicaspersona` (
   `idcaracteristicapersona` int(11) NOT NULL default '0',
   `idpersona` int(11) default NULL,
   `idcaracteristica` int(11) default NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `caracteristicpersona` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of caracteristicpersona
+-- Records of caracteristicaspersona
 -- ----------------------------
 
 -- ----------------------------
